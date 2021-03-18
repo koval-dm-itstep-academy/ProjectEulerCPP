@@ -3,7 +3,7 @@
 #include <string>
 #include <sstream>
 
-int getDecision()
+int solve()
 {
     int sum = 0;
     std::string str1 = std::to_string(pow(2, 1000));
@@ -23,5 +23,5 @@ int getDecision()
 
 int main()
 {
-    std::cout << getDecision() << "\n";
+    std::cout << solve() << "\n";
 }
