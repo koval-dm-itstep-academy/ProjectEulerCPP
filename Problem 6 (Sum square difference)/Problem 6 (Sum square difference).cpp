@@ -26,18 +26,18 @@ int getResult(int& sum, int& sum2)
     return (sum - sum2);
 }
 
-void solve()
+int solve()
 {
     int sum = 0;
     int sum2 = 0;
 
-    std::cout << "The sum of the squares -> " << geSumOfSquares(sum2) << "\n";
-    std::cout << "The square of the sum -> " << getSquareOfSum(sum) << "\n";
+    geSumOfSquares(sum2);
+    getSquareOfSum(sum);
 
-    std::cout << "Result -> " << getResult(sum, sum2) << "\n";
+    return getResult(sum, sum2);
 }
 
 int main()
 {
-    solve();
+    std::cout << solve() << "\n";
 }
