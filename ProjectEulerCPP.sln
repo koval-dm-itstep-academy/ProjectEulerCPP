@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem 6 (Sum square diffe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem 16 (Power digit sum)", "Problem 16 (Power digit sum)\Problem 16 (Power digit sum).vcxproj", "{3DDA761E-4EF4-4C8D-ABED-46F00C60A5AC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem 5 (Smallest multiple)", "Problem 5 (Smallest multiple)\Problem 5 (Smallest multiple).vcxproj", "{D4D6817E-04A1-43AC-A541-BD58A40A67FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{3DDA761E-4EF4-4C8D-ABED-46F00C60A5AC}.Release|x64.Build.0 = Release|x64
 		{3DDA761E-4EF4-4C8D-ABED-46F00C60A5AC}.Release|x86.ActiveCfg = Release|Win32
 		{3DDA761E-4EF4-4C8D-ABED-46F00C60A5AC}.Release|x86.Build.0 = Release|Win32
+		{D4D6817E-04A1-43AC-A541-BD58A40A67FB}.Debug|x64.ActiveCfg = Debug|x64
+		{D4D6817E-04A1-43AC-A541-BD58A40A67FB}.Debug|x64.Build.0 = Debug|x64
+		{D4D6817E-04A1-43AC-A541-BD58A40A67FB}.Debug|x86.ActiveCfg = Debug|Win32
+		{D4D6817E-04A1-43AC-A541-BD58A40A67FB}.Debug|x86.Build.0 = Debug|Win32
+		{D4D6817E-04A1-43AC-A541-BD58A40A67FB}.Release|x64.ActiveCfg = Release|x64
+		{D4D6817E-04A1-43AC-A541-BD58A40A67FB}.Release|x64.Build.0 = Release|x64
+		{D4D6817E-04A1-43AC-A541-BD58A40A67FB}.Release|x86.ActiveCfg = Release|Win32
+		{D4D6817E-04A1-43AC-A541-BD58A40A67FB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
