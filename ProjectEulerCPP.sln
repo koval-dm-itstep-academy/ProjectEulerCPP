@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem 4 (Largest palindro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem 13 (Large sum)", "Problem 13 (Large sum)\Problem 13 (Large sum).vcxproj", "{32877973-1335-4136-B441-FAA75AFD3B06}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem 18 (Maximum path sum I)", "Problem 18 (Maximum path sum I)\Problem 18 (Maximum path sum I).vcxproj", "{C8AB94B0-6F78-456D-9B23-C7F41ACA10F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{32877973-1335-4136-B441-FAA75AFD3B06}.Release|x64.Build.0 = Release|x64
 		{32877973-1335-4136-B441-FAA75AFD3B06}.Release|x86.ActiveCfg = Release|Win32
 		{32877973-1335-4136-B441-FAA75AFD3B06}.Release|x86.Build.0 = Release|Win32
+		{C8AB94B0-6F78-456D-9B23-C7F41ACA10F6}.Debug|x64.ActiveCfg = Debug|x64
+		{C8AB94B0-6F78-456D-9B23-C7F41ACA10F6}.Debug|x64.Build.0 = Debug|x64
+		{C8AB94B0-6F78-456D-9B23-C7F41ACA10F6}.Debug|x86.ActiveCfg = Debug|Win32
+		{C8AB94B0-6F78-456D-9B23-C7F41ACA10F6}.Debug|x86.Build.0 = Debug|Win32
+		{C8AB94B0-6F78-456D-9B23-C7F41ACA10F6}.Release|x64.ActiveCfg = Release|x64
+		{C8AB94B0-6F78-456D-9B23-C7F41ACA10F6}.Release|x64.Build.0 = Release|x64
+		{C8AB94B0-6F78-456D-9B23-C7F41ACA10F6}.Release|x86.ActiveCfg = Release|Win32
+		{C8AB94B0-6F78-456D-9B23-C7F41ACA10F6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
