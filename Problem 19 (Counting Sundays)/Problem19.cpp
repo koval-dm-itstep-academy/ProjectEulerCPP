@@ -1,4 +1,5 @@
 #include <iostream>
+
 int solve() {
     int month[12] = { 31,0,31,30,31,30,31,31,30,31,30,31 };
     int day = 2;

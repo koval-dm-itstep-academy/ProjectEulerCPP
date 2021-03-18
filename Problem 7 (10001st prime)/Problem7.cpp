@@ -1,4 +1,5 @@
 #include <iostream>
+
 bool isPrime(int a)
 {
     for (int i = 2; i <= a / 2; ++i)
