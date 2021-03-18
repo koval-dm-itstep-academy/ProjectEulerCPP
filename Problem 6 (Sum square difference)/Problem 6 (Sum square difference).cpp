@@ -26,7 +26,7 @@ int getResult(int& sum, int& sum2)
     return (sum - sum2);
 }
 
-int main()
+void solve()
 {
     int sum = 0;
     int sum2 = 0;
@@ -35,4 +35,9 @@ int main()
     std::cout << "The square of the sum -> " << getSquareOfSum(sum) << "\n";
 
     std::cout << "Result -> " << getResult(sum, sum2) << "\n";
+}
+
+int main()
+{
+    solve();
 }
