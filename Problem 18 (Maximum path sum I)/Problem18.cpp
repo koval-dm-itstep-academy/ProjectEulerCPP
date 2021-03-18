@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-void fillVector(std::vector<int> vec){
+void fillVector(std::vector<int>& vec){
 	vec = {
 		75,
 		95, 64,
@@ -21,19 +21,27 @@ void fillVector(std::vector<int> vec){
 	};
 }
 
-void solution() {
+int solve() {
 	std::vector<int> triangle;
 	fillVector(triangle);
 	int max_sum = 0;
 	int elem = 0;
 	for (int q = 0; q < 15; ++q) {
-		if (triangle[elem + q + 1] > triangle[elem + q + 2]) {
-			elem += q + 1;
+		if (elem + q + 1 < triangle.size() || elem + q + 2 < triangle.size()) {
+			if (triangle[elem + q + 1] > triangle[elem + q + 2]) {
+				max_sum += triangle[elem + q + 1];
+				elem += q + 1;
+			}
+			else {
+				max_sum += triangle[elem + q + 2];
+				elem += q + 2;
+			}
 		}
 	}
 
+	return max_sum;
 }
 
 int main() {
-
+	std::cout << solve() << "\n";
 }
