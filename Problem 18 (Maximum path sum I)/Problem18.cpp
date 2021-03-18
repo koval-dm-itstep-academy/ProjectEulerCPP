@@ -27,7 +27,17 @@ int solve() {
 	int max_sum = 0;
 	int elem = 0;
 	for (int q = 0; q < 15; ++q) {
-		if (elem + q + 1 < triangle.size() || elem + q + 2 < triangle.size()) {
+		if (elem + q + 1 < triangle.size()) {
+			if (triangle[elem + q + 1] > triangle[elem + q + 2]) {
+				max_sum += triangle[elem + q + 1];
+				elem += q + 1;
+			}
+			else {
+				max_sum += triangle[elem + q + 2];
+				elem += q + 2;
+			}
+		}
+		else if (elem + q + 2 < triangle.size()) {
 			if (triangle[elem + q + 1] > triangle[elem + q + 2]) {
 				max_sum += triangle[elem + q + 1];
 				elem += q + 1;
