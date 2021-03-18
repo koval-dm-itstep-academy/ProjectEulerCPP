@@ -21,11 +21,6 @@ int getSquareOfSum(int& sum)
     return sum = pow(sum, 2);
 }
 
-int getResult(int& sum, int& sum2)
-{
-    return (sum - sum2);
-}
-
 int solve()
 {
     int sum = 0;
@@ -34,7 +29,7 @@ int solve()
     geSumOfSquares(sum2);
     getSquareOfSum(sum);
 
-    return getResult(sum, sum2);
+    return (sum - sum2);
 }
 
 int main()
