@@ -17,7 +17,7 @@ bool isPalindrome(std::string pal) {
 	return 1;
 }
 
-int solution() {
+int solve() {
 	int biggest_pal = 0;
 	for (int q = 1; q < 1000; ++q) {
 		for (int w = 0; w < 1000; ++w) {
@@ -33,5 +33,5 @@ int solution() {
 }
 
 int main() {
-	std::cout << solution() << "\n";
+	std::cout << solve() << "\n";
 }

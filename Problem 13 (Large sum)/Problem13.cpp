@@ -140,7 +140,7 @@ std::string addNumStrings(std::string const& str1, std::string const& str2)
     return result;
 }
 
-std::string solution() {
+std::string solve() {
 	std::vector <std::string> large_vec;
 	std::string large_sum = "0";
 	fillVecror(large_vec);
@@ -155,5 +155,5 @@ std::string solution() {
 }
 
 int main() {
-    std::cout << solution() << "\n";
+    std::cout << solve() << "\n";
 }
