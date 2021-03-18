@@ -5,7 +5,6 @@ int solve()
 {
 	int sum = 0;
 	int checker;
-
 	bool prime = true;
 
 	for (int num = 1; num < 2000000; num++)
