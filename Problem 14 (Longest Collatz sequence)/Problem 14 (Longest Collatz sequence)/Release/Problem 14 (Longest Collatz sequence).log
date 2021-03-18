@@ -1,0 +1,8 @@
+﻿  Problem 14 (Longest Collatz sequence).cpp
+D:\Visual Studio\C++\Problem 14 (Longest Collatz sequence)\Problem 14 (Longest Collatz sequence)\Problem 14 (Longest Collatz sequence).cpp(20,22): warning C4244: аргумент: преобразование "__int64" в "int", возможна потеря данных
+  Создание кода
+  2 of 12 functions (16.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+  Создание кода завершено
+    0 functions had inline decision re-evaluated but remain unchanged
+  Problem 14 (Longest Collatz sequence).vcxproj -> D:\Visual Studio\C++\Problem 14 (Longest Collatz sequence)\Release\Problem 14 (Longest Collatz sequence).exe
