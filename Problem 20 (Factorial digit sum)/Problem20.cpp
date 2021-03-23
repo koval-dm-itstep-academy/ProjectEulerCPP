@@ -8,7 +8,7 @@ using namespace std;
  
 int multiply(int x, int res[], int res_size);
  
-void solve(int n) //Решение задачи
+int solve(int n) //Решение задачи
 {
     int sum = 0;
     int res[MAX];
@@ -24,7 +24,7 @@ void solve(int n) //Решение задачи
     for (int i = res_size - 1; i >= 0; i--)
         sum += res[i];
     
-    cout << sum;
+    return sum;
 }
  
 // Эта функция умножает x на число, представленное res []. res_size - это размер res [] или количество цифр в числе, представленном res []. 
@@ -55,6 +55,6 @@ int multiply(int x, int res[], int res_size)
 
 int main()
 {
-    solve(100);
+    cout << solve(100) << "\n";
     return 0;
 }
