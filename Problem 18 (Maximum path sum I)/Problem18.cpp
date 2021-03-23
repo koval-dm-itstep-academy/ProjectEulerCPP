@@ -24,28 +24,20 @@ void fillVector(std::vector<int>& vec){
 int solve() {
 	std::vector<int> triangle;
 	fillVector(triangle);
-	int max_sum = 0;
-	int elem = 0;
+	int max_sum = *triangle.begin();
+	int used_elem = 0; //elem + q + 1 or 2 - possible step
 	for (int q = 0; q < 15; ++q) {
-		if (elem + q + 1 < triangle.size()) {
-			if (triangle[elem + q + 1] > triangle[elem + q + 2]) {
-				max_sum += triangle[elem + q + 1];
-				elem += q + 1;
-			}
-			else {
-				max_sum += triangle[elem + q + 2];
-				elem += q + 2;
-			}
+		int elem1 = used_elem + q + 1;
+		int elem2 = used_elem + q + 2;
+
+		if (elem1 <= triangle.size() && triangle[elem1] >= triangle[elem2]) {
+			max_sum += triangle[elem1];
+			used_elem = used_elem + q + 1;
 		}
-		else if (elem + q + 2 < triangle.size()) {
-			if (triangle[elem + q + 1] > triangle[elem + q + 2]) {
-				max_sum += triangle[elem + q + 1];
-				elem += q + 1;
-			}
-			else {
-				max_sum += triangle[elem + q + 2];
-				elem += q + 2;
-			}
+		else if(elem2 <= triangle.size() && triangle[elem1] < triangle[elem2])
+		{
+			max_sum += triangle[elem2];
+			used_elem = used_elem + q + 2;
 		}
 	}
 
