@@ -29,8 +29,8 @@ int coefficientsProduct() {
 	int common_nums = 0;
 	int max_a = 0;
 	int max_b = 0;
-	for (int a = 0; a < 1000; ++a) {
-		for (int b = 0; b <= 1000; ++b) {
+	for (int a = -1000; a < 1000; ++a) {
+		for (int b = -1000; b <= 1000; ++b) {
 			int values = valuesN(a,b);
 			if (values > common_nums) {
 				common_nums = values;
