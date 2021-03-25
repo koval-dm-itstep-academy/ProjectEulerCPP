@@ -27,15 +27,15 @@ std::string narayanaAlgorithm(std::string& num) {
     return num;
 }
 
-void solve(std::string& nums, int quant_of_permut) {
-    for (int q = 0; q < quant_of_permut; ++q) {
+std::string solve() {
+	std::string nums = "0123456789";
+    for (int q = 0; q < 1000000; ++q) {
         narayanaAlgorithm(nums);
     }
+    return nums;
 }
 
 
 int main() {
-	std::string nums = "0123456789";
-    solve(nums, 1000000);
-    std::cout << nums << "\n";
+    std::cout << solve() << "\n";
 }
